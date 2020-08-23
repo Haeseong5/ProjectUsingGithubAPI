@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="githubBlue">#0363d1</color>
+    <color name="githubBlack">#1e2327</color>
+    <color name="gray">#717171</color>
+    <string name="description">Description</string>
+    <string name="language">Language</string>
+    <string name="last_update">Last update</string>
+    <string name="no_description_provided">No description provided</string>
+    <string name="no_language_specified">No language specified</string>
+    <string name="no_recent_repositories">No recent repositories.</string>
+    <string name="no_search_result">No search result.</string>
+    <string name="search">Search</string>
+    <string name="sign_in">Sign in</string>
+    <string name="start_with_github">Start with Github</string>
+    <string name="unknown">Unknown</string>
+    <string name="view_repository">View repository</string>
+</resources>
