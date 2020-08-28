@@ -1,6 +1,7 @@
 package com.haeseong5.android.githubwithrx.src.kotlin.api
 
 import com.haeseong5.android.githubwithrx.src.kotlin.api.model.GithubAccessToken
+import io.reactivex.Observable
 import retrofit2.Call
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
@@ -18,6 +19,5 @@ interface AuthApi {
 //GithubAccessToken에 정의된 데이터 형식으로 응답받음.
         @Field("client_id") clientId: String,
         @Field("client_secret") clientSecret: String,
-        @Field("code") code: String
-    ): Call<GithubAccessToken?>?
+        @Field("code") code: String): Observable<GithubAccessToken>
 }

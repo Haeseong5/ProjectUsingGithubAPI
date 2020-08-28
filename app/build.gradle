@@ -54,11 +54,19 @@ dependencies {
     implementation "com.squareup.okhttp3:okhttp:$okHttpVersion"
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "org.jetbrains.anko:anko-commons:$ankoVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
+    implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+    //retrofit에서 받은 응답을 옵저버블로 변환해주는 라이브러리
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
 
     annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
     //코틀린 어노테이션 프로세서에서 처리될 수 있도록 의존성 추가
     kapt "com.github.bumptech.glide:compiler:$glideVersion"
     testImplementation 'junit:junit:4.12'
+
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+
 }
